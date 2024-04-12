@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="non_visualisation">
+    <div id="navbar">
+      <div class="btn_navbar">
+        <a id="btn_top" href="#"><img src="home.png"></a>
+        <a href="#presentation">Présentation</a>
+        <a href="#competence">Compétences</a>
+        <a href="#experience">Expériences</a>
+        <a href="#projet">Projets</a>
+        <a href="#visualisation">Visualisation 3D</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <section id="debut">
+      <h1 id="moi">Mathéo Bertin</h1>
+      <div id="helloWorld"></div>
+    </section>
+
+    <section id ="presentation">
+      <h2 class="text_section">Présentation</h2>
+      <img id="img_pp" src="photo.jpg" style="margin-top: 3em">
+      <p class="text_presentation" id="bonjour" >Bonjour</p>
+      <p class="text_presentation">Je m'appelle Mathéo, je suis étudiant l'Institut Supérieur de l'Électronique
+        et du Numérique (ISEN) de Rennes, en CIR2 (Cycle Informatique et Réseau).
+        J'ai choisie cette école et cette formation car depuis mon plus jeune âge j'ai toujours été intéressé à
+        tout ce qui se rapproche de l'informatique. Une formation d'ingénieur a été mon choix car la possibilité
+        d'avoir le plus de connaissance possible est d'autant plus intéressante. Conscient des enjeux de la cybersécurité, je souhaite mettre en pratique mes
+        compétences acquises au cours de mon parcours. Curieux et adepte du travail en équipe, je suis prêt à relever les défis futurs. En résumé, elle constitue le socle fondamental de la stabilité et de la prospérité dans notre environnement
+        numérique en constante évolution.</p>
+    </section>
+
+    <section id ="competence">
+      <h2 class="text_section">Compétences</h2>
+      <div id="container_competences">
+
+        <div>
+          <h1>Développement Logiciel</h1>
+          <div style="display: flex;width: 2em;margin-left: 9em;margin-top: -2em">
+            <div>
+              <img src="logo_c.png">
+              <p>C</p>
+            </div>
+            <div>
+              <img src="logo_c++.png">
+              <p>C++</p>
+            </div>
+            <div>
+              <img src="logo_python.png">
+              <p>Python</p>
+            </div>
+            <div>
+              <img src="logo_QT.png">
+              <p>QT</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1>Développement Web</h1>
+          <div style="display: flex;width: 2em;margin-left: 10em;margin-top: -2em">
+            <div>
+              <img src="logo_js.png">
+              <p>JS</p>
+            </div>
+            <div>
+              <img src="logo_html.png">
+              <p>HTML</p>
+            </div>
+            <div>
+              <img src="logo_css.png">
+              <p>CSS</p>
+            </div>
+            <div>
+              <img src="logo_php.png">
+              <p>PHP</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1>Base de données</h1>
+          <div style="display: flex;width: 2em;margin-left: 14em;margin-top: -2em">
+            <div>
+              <img src="logo_jmerise.png">
+              <p>JMerise</p>
+            </div>
+            <div>
+              <img src="logo_mysql.png">
+              <p>SQL</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1>Outils</h1>
+          <div style="display: flex;width: 2em;margin-left: 10em;margin-top: -2em">
+            <div>
+              <img src="logo_wamp.png">
+              <p>Wamp</p>
+            </div>
+            <div>
+              <img src="logo_pp.png">
+              <p>Première Pro</p>
+            </div>
+            <div>
+              <img src="logo_blender.png">
+              <p>Blender</p>
+            </div>
+            <div>
+              <img src="logo_apache.png">
+              <p>Apache</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id ="experience">
+      <h2 class="text_section">Expériences</h2>
+      <div id="experiences">
+        <div class="experience-item" data-id="1">
+          <b>AGENT POLYVALENT</b>
+          <p>Commune de Lohéac, 2021</p>
+          <p>Contractuel Vacataire en tant qu'agent d'entretien des espaces verts</p>
+        </div>
+        <div class="experience-item" data-id="2">
+          <b>PROJET ACTION SERVICE</b>
+          <p>Lycée Marcel Callo de Redon, 2019 - 2022</p>
+          <p>Attestation d'accomplissement Projet Action Service (Tutorat en Seconde, Première, Terminale et participation à l'organisation et à la gestion du foyer des élèves)</p>
+        </div>
+        <div class="haut experience-item" data-id="3">
+          <b>TRAVAIL SAISONNIER</b>
+          <p>Base Centrale INTERMARCHÉ LAI, 2022 - EN COURS</p>
+          <p>Agent technique et d'entretien</p>
+        </div>
+        <div class="bas experience-item" data-id="4">
+          <b>STAGE ASSOCIATIF</b>
+          <p>Cinéma l’Alliance, 2023</p>
+          <p>Bénévole à tous les postes</p>
+        </div>
+        <div class="haut experience-item" data-id="5">
+          <b>PROFESSEUR PARTICULIER</b>
+          <p>Enseignement des mathématiques, 2022 - EN COURS</p>
+          <p>Enseignement à des collégiens et lycéens en vue de leurs examens</p>
+        </div>
+      </div>
+      <div class="modal" id="experienceModal">
+        <div class="modal-content" id="modalContent">
+          <!-- Contenu de la modal -->
+        </div>
+      </div>
+    </section>
+
+    <section id ="projet">
+      <h2 class="text_section">Projets</h2>
+      <div id="projet_section">
+        <div id="projet_info"></div>
+        <div style="margin-top: 10em" id="prev">&#9664;</div>
+        <div style="margin-top: 10em" id="next">&#9654;</div>
+      </div>
+    </section>
+
+    <section id="visualisation">
+      <div>
+        <h2 class="text_section" id="text_visualisation">Visualisation</h2>
+        <button id="boutonJouer">Entrer</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="text_section">Contact</h2>
+      <div class="contact-info">
+        <a>Email: matheo.bertin@isen-ouest.yncrea.fr</a>
+        <a href="https://www.linkedin.com/in/math%C3%A9o-bertin-1673b8299" target="_blank">LinkedIn Profile</a>
+        <a href="CV.pdf" target="_blank">View CV</a>
+      </div>
+    </section>
+  </div>
+
+  <div>
+    <button id="retourBtn">Retour</button>
+    <div id="textOverlay" style="display: none; position: absolute; color: white; background: rgba(0, 0, 0, 0.7); padding: 2em;width: 30em;margin-left: -10em"></div>
+    <div id="zoneThreeJS"></div>
+    <div id="joystick"></div>
+  </div>
+  <script type="module" src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/nipplejs@0.10.1/dist/nipplejs.min.js"></script>
+</body>
+</html>
