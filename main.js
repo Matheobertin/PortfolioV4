@@ -21,6 +21,13 @@ const projets = {
         lien: "https://github.com/Matheobertin/",
         img: "jeudelavie.gif"
     },
+    4: {
+        title: "Plateformer (QT)",
+        description: "L'objectif est de créer un jeu de plate-forme en utilisant le framework Qt, en mettant en œuvre des éléments classiques tels que des plateformes mobiles, des ennemis, et des objets collectables. Le joueur doit naviguer à travers différents niveaux, en sautant et en évitant les obstacles pour atteindre l'objectif final. Le projet implique la création de niveaux variés, une gestion fluide des mouvements du personnage, et une interface utilisateur intuitive pour une expérience de jeu agréable.",
+        conclusion: "Ce projet nous a permis de renforcer nos compétences en programmation avec Qt pour développer un jeu de plate-forme fonctionnel. En fin de compte, ce projet nous a offert une expérience précieuse dans le développement de jeux et de logiciels, et nous a préparés à relever des défis similaires dans notre parcours académique et professionnel.",
+        lien: "https://github.com/Matheobertin/",
+        img: "jeuQT.gif"
+    },
     // Ajoutez d'autres projets ici si nécessaire
 };
 
